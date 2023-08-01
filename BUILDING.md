@@ -56,3 +56,4 @@ The project provides the following actions. You can run them with the mox tool (
 - **clean**: This command will remove all regenerateable files of a certain category. Usage `./mox.bat/sh clean [type]` Where type can be (`output`, `project`, `dependencies`, or `all`. Defaults to `output`).
 - **run**: This will automatically run a specific executable in the correct working dir. Usage `./mox.bat/sh run [-c=Debug/Release/...] EXE [args...]`.
 - **autogen**: Will automatically run `init`, `build` and `deploy`.
+- **my-action**: Dummy output.
